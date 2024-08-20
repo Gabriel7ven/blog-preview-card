@@ -22,11 +22,11 @@ body {
 
 .card {
     position: relative;
-    width: 400px;
+    width: 250px;
     background-color: white;
-    height: 550px;
+    /* height: 350px; */
     border-radius: 20px;
-    padding: 20px;
+    padding: 14px;
     border: 1px solid black;
     box-shadow: 10px 10px;
 }
@@ -34,45 +34,47 @@ body {
 header img {
     width: 100%;
     border-radius: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 main a {
     background-color: var(--yellow);
-    padding: 7px 15px;
-    border-radius: 7px;
+    padding: 5px 10px;
+    border-radius: 3px;
     text-decoration: none;
     color: black;
     font-weight: 800;
+    font-size: 0.8rem;
 }
 
 .published {
     display: block;
-    margin-top: 20px;
+    margin-top: 15px;
+    font-size: 0.75rem;
 }
 
 footer {
-     position: absolute;
-     bottom: 20px;
-     display: flex;
-     align-items: center;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
 }
 
 .author {
-    margin-left: 15px;
+    margin-left: 10px;
     font-weight: 800;
+    font-size: 0.75rem;
 }
 
 h1 {
-    font-size: 1.75rem;
+    font-size: 1.1rem;
     font-weight: 800;
 }
 
 p {
-    font-size: 1.18rem;
-    color: var(--gray-half)
+    font-size: 0.75rem;
+    color: var(--gray-half);
 }
 
 footer img {
-    width: 40px;
+    width: 25px;
 }
